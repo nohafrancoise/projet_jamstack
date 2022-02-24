@@ -4,16 +4,16 @@ backend:
 
 media_folder: "src/img"
 public_folder: "/images/uploads"
+
 collections:
-  - name: "blog" 
-    label: "Blog"
-    folder: "_posts/blog" 
-    create: true 
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" 
-        fields: 
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    extension: "json"
+    format: "json"
+    folder: data
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { name: title }
+      - { name: desc }

@@ -1,6 +1,6 @@
 import logo from "../img/logo.png";
 import "../App.css";
-import data from "../db/header.json";
+import data from "../db/head.json";
 import banner from "../img/banner.png";
 
 export default function Header() {

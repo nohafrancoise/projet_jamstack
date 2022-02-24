@@ -1,7 +1,7 @@
-import data from "../data/home.json";
+import data from "../db/home.json";
 import market from "../img/marketing-img.svg"
 
-function Home() {
+export default function Home() {
   return (
     <div className="headerHome">
       <div>
@@ -9,13 +9,13 @@ function Home() {
         <p className="homeSubtitle">{data.home.desc}</p>
         <div className="id">
           <div className="id">
-            <p className="para">{data.home.id0}</p>
+            <p className="para">{data.home.infos[1].id.text}</p>
           </div>
           <div className="id">
-            <p className="para">{data.home.id1}</p>
+            <p className="para">{data.home.infos[1].id.text}</p>
           </div>
           <div className="id">
-            <p className="para">{data.home.id2}</p>
+            <p className="para">{data.home.infos[2].text}</p>
           </div>
         </div>
       </div>
@@ -26,4 +26,3 @@ function Home() {
   );
 }
 
-export default Home;

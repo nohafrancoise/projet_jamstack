@@ -1,7 +1,7 @@
 import React from 'react'
-import data from "../data/contact.json";
+import data from "../db/contact.json";
 
-function Contact() {
+export default function Contact() {
   return (
     <div className="contact">
       <div className="fpContact">
@@ -11,12 +11,10 @@ function Contact() {
       <div className="contactFormSubmit">
         <form name="contactForm" method="POST" data-netlify="true">
           <input type="hidden" name="form-name" value="contactForm"/>
-          <input type="email" name="email" placeholder={data.contacts.input} />
-          <button type="submit" className="btn2">{data.contact.btn}</button>
+          <input type="email" name="email" placeholder={data.contact.input.placeholder} />
+          <button type="submit" className="btn2">{data.contact.button.text}</button>
         </form>
       </div>
     </div>
   );
 }
-
-export default Contact;

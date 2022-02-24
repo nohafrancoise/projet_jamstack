@@ -1,5 +1,5 @@
 import logo from "../img/logo.png";
-import data from "../data/footer.json";
+import data from "../db/footer.json";
 
 function Footer() {
   return (

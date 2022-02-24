@@ -6,7 +6,7 @@ import Header from "./component/header"
 import Contact from "./component/contact"
 import Footer from "./component/footer"
 
-function App() {
+ export default function App() {
   return (
     <div>
       <Header />
@@ -18,4 +18,3 @@ function App() {
   );
 }
 
-export default App;

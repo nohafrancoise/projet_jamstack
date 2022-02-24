@@ -1,9 +1,9 @@
 import logo from "../img/logo.png";
 import "../App.css";
-import data from "../data/header.json";
+import data from "../db/header.json";
 import banner from "../img/banner.png";
 
-function Header() {
+export default function Header() {
   return (
     <div>
       <div className="logo">
@@ -12,8 +12,8 @@ function Header() {
       <div className="header">
         <div>
           <h1 className="headerTitle">{data.header.title}</h1>
-          <p className="desc">{data.header.text}</p>
-          <button className="button">{data.header.button}</button>
+          <p className="">{data.header.text}</p>
+          <button className="button">{data.header.button.text}</button>
         </div>
         <div className="bannerHead">
           <img src={banner} alt={"banner"} />
@@ -23,4 +23,3 @@ function Header() {
   );
 }
 
-export default Header;

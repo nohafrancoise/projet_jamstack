@@ -22,7 +22,10 @@
 .button {
   background-color: #fb4275;
   color: #fff;
-  padding: 15px 30px 15px 30px;
+  padding-top: 12px ;
+  padding-left: 30px;
+  padding-bottom: 12px;
+  padding-right:30px;
   border: none;
 }
 
@@ -47,10 +50,6 @@
   padding: 15px 0 0 0;
   border-top: solid 10px #fb4275;
   width: 50px;
-}
-
-.titreandsub {
-  width: 100vh;
 }
 
 .subtitle {
@@ -146,6 +145,7 @@
   border: 5px solid #fb4275;
   border-radius: 40px;
   
+  
 }
 
 ::placeholder {
@@ -160,7 +160,13 @@
   padding: 15px 50px 15px 50px;
   border: none;
   border-radius: 40px;
-}
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+  }
 
 .logo2 {
   width: 100%;

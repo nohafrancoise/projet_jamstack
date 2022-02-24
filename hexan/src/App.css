@@ -35,7 +35,7 @@
   margin: 0 auto;
 }
 
-.headerTitle {
+.headerTitre {
   color: #3f3f3f;
   font-size: 53px;
   font-weight: 700;
@@ -57,8 +57,14 @@
   color: #3f3f3f;
 }
 
-.services-card {
+.service-card {
   display: flex;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
 }
 
 .icons {
@@ -91,7 +97,7 @@
   text-align: center;
 }
 
-.homeTitle {
+.homeTitre {
   font-size: 53px;
   font-weight: 700;
   color: #3f3f3f;
@@ -161,7 +167,6 @@
   border: none;
   border-radius: 40px;
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;

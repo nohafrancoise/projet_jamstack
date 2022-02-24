@@ -9,10 +9,10 @@ export default function Home() {
         <p className="homeSubtitle">{data.home.desc}</p>
         <div className="id">
           <div className="id">
-            <p className="para">{data.home.infos[1].id.text}</p>
+            <p className="para">{data.home.infos[0].text}</p>
           </div>
           <div className="id">
-            <p className="para">{data.home.infos[1].id.text}</p>
+            <p className="para">{data.home.infos[1].text}</p>
           </div>
           <div className="id">
             <p className="para">{data.home.infos[2].text}</p>

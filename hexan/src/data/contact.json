@@ -1,0 +1,12 @@
+{
+"contact": {
+    "title": "Contact",
+    "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum",
+    "input": {
+        "placeholder": "Mail"
+    },
+    "button": {
+        "text": "SUBMIT"
+    }
+}
+}

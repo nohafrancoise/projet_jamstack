@@ -1,0 +1,205 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.logo {
+  padding: 50px 0 50px 235px;
+  border-bottom: solid 2px #999;
+}
+
+.header {
+  padding: 250px 0 20px 0;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #999;
+}
+
+.button {
+  background-color: #fb4275;
+  color: #fff;
+  padding: 15px 30px 15px 30px;
+  border: none;
+}
+
+.service {
+  padding: 250px 0 20px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.headerTitle {
+  color: #3f3f3f;
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 2px;
+}
+
+.titre {
+  font-size: 53px;
+  font-weight: 700;
+  color: #3f3f3f;
+  padding: 15px 0 0 0;
+  border-top: solid 10px #fb4275;
+  width: 50px;
+}
+
+.titreandsub {
+  width: 100vh;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #3f3f3f;
+}
+
+.services-card {
+  display: flex;
+}
+
+.icons {
+  text-align: center;
+  width: 100px;
+  height: 25%;
+}
+
+.service-titre {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 10px 0 20px 0;
+}
+
+.service-text {
+  color: #999;
+}
+
+.headerHome {
+  display: flex;
+  padding: 100px 0 20px 250px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  margin: 25px;
+  text-align: center;
+}
+
+.homeTitle {
+  font-size: 53px;
+  font-weight: 700;
+  color: #3f3f3f;
+  padding: 15px 0 0 0;
+  border-top: solid 10px #fb4275;
+  width: 50px;
+}
+
+.homeSubtitle {
+  width: 50%;
+  color: #999;
+}
+
+.market img {
+  width: 600px;
+  background-color: #fff7f9;
+  padding: 50px 400px 50px 40px;
+  border-radius: 300px 0 0 300px;
+}
+
+.contact {
+  padding: 0 250px 0 250px;
+  margin-bottom: 150px;
+}
+
+.line {
+  font-size: 10px;
+}
+
+.contactTitle {
+  font-size: 53px;
+  font-weight: 700;
+  color: #3f3f3f;
+  padding: 15px 0 0 0;
+  border-top: solid 10px #fb4275;
+  width: 50px;
+}
+
+.contactsubt {
+  padding-bottom: 20px;
+  width: 100%;
+  color: #999;
+}
+
+
+
+.contactFormSubmit input {
+  width: 500px;
+  height: 35px;
+  margin-left: 0 30px 0 30px;
+  border: 5px solid #fb4275;
+  border-radius: 40px;
+  
+}
+
+::placeholder {
+  color: black;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.btn2 {
+  background-color: #fb4275;
+  color: #fff;
+  padding: 15px 50px 15px 50px;
+  border: none;
+  border-radius: 40px;
+}
+
+.logo2 {
+  width: 100%;
+  padding-right: 235px;
+  padding: 50px 0 50px 235px;
+  border-bottom: solid #999;
+}
+
+.copyright {
+  padding: 20px 0 60px 0;
+  text-align: center;
+}
+
+@media (max-width: 990px) {
+  .logo {
+    text-align: center;
+  }
+  .bannerHead img {
+    display: none;
+  }
+
+  .market img {
+    display: none;
+  }
+
+  .service-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .service-card {
+    flex: 0 0 50%;
+    max-width: 70%;
+  }
+}
